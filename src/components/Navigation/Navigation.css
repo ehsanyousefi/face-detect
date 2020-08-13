@@ -1,0 +1,17 @@
+
+.psignout {
+  margin: 20px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.psignout:hover {
+  opacity: 0.5;
+  transform: scale(1.03);
+}
+
+p {
+  cursor: pointer;
+}

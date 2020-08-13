@@ -1,0 +1,39 @@
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+#inputimage {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+#inputimage:hover {
+  opacity: 0.9;
+  grid-row: 2px;
+  transform: scale(1.03);
+}
+
+
+.divparent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.divchild {
+  position: absolute;
+}
